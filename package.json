@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-varp",
+  "name": "eslint-config-varp-common",
   "version": "0.0.2",
   "description": "Common ESLint Rules by Varp",
   "keywords": [
@@ -9,7 +9,7 @@
     "config"
   ],
   "main": "index.js",
-  "repository": "https://github.com/berezh/eslint-config-varp",
+  "repository": "https://github.com/berezh/eslint-config-varp-common",
   "author": "Varp",
   "license": "MIT",
   "peerDependencies": {
