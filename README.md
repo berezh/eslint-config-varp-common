@@ -1,7 +1,7 @@
-# eslint-config-varp
+# eslint-config-varp-common
 
-<a href="https://www.npmjs.com/package/eslint-config-varp">
-    <img src="https://nodei.co/npm/eslint-config-varp.png?mini=true">
+<a href="https://www.npmjs.com/package/eslint-config-varp-common">
+    <img src="https://nodei.co/npm/eslint-config-varp-common.png?mini=true">
 </a>
 
 ### Go in
@@ -21,7 +21,7 @@
 1. Install with peer dependencies:
 
 ```js
-npx install-peerdeps -D eslint-config-varp
+npx install-peerdeps -D eslint-config-varp-common
 ```
 
 2. Create `.prettierrc.js` file with content:
@@ -35,7 +35,7 @@ module.exports = {
 3. Create `.eslintrc.js` file with content:
 ```js
 module.exports = {
-  extends: ["eslint-config-varp/common/index.js"],
+  extends: ["varp-common"],
   rules: {
     /* Eslint rules */
   }
