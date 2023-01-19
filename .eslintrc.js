@@ -7,13 +7,7 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  extends: [
-    "prettier",
-    "plugin:import/recommended",
-    "plugin:json/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:import/typescript",
-  ],
+  extends: ["prettier", "plugin:import/recommended", "plugin:json/recommended", "plugin:@typescript-eslint/recommended", "plugin:import/typescript"],
   plugins: ["prettier", "@typescript-eslint"],
   rules: {
     "prettier/prettier": [
@@ -25,10 +19,10 @@ module.exports = {
         semi: true,
         singleQuote: false,
         quoteProps: "as-needed",
-        printWidth: 120,
+        printWidth: 160,
         useTabs: false,
         arrowParens: "avoid",
-        bracketSameLine: true,
+        bracketSameLine: false,
       },
     ],
     // ORIGINAL
