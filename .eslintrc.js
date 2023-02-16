@@ -28,6 +28,7 @@ module.exports = {
     // ORIGINAL
     "no-console": ["error", { allow: ["warn", "error", "info"] }],
     camelcase: "off",
+    "max-len": "off",
     "lines-between-class-members": "error",
     // IMPORT
     "import/no-default-export": "error",
