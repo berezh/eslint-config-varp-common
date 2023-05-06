@@ -21,7 +21,7 @@
 1. Install with peer dependencies:
 
 ```js
-npx install-peerdeps -D eslint-config-varp-common
+npm install -D eslint-config-varp-common
 ```
 
 2. Create `.prettierrc.js` file with content:
@@ -86,6 +86,3 @@ module.exports = {
 disc
 ```
 
-## Notes
-
-- `typescript` package is not on `peerDependencies`, but it require to be on the project.
