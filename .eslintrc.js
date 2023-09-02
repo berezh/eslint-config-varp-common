@@ -19,7 +19,7 @@ module.exports = {
         semi: true,
         singleQuote: false,
         quoteProps: "as-needed",
-        printWidth: 180,
+        printWidth: 150,
         useTabs: false,
         arrowParens: "avoid",
         bracketSameLine: false,
