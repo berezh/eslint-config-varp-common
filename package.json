@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-varp-common",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "Common ESLint Rules by Varp",
   "keywords": [
     "typescript",
