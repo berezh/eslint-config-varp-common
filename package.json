@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-varp-common",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Common ESLint Rules by Varp",
   "keywords": [
     "typescript",
@@ -13,7 +13,7 @@
   "author": "Varp",
   "license": "MIT",
   "peerDependencies": {
-    "typescript": ">=4"
+    "typescript": ">=5"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
