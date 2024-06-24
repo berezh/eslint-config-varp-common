@@ -68,13 +68,13 @@ module.exports = {
 
 ### Override rules
 
-* Create file in selected folter: `.eslintrc.js`
+* Create file in selected folder: `.eslintrc.js`
 * Add content:
 ```js
 module.exports = {
   extends: '../.eslintrc.js',
   rules: {
-    /* Overrided rules */
+    /* Overridden rules */
   }
 };
 ```
